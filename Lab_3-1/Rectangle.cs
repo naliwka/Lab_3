@@ -36,7 +36,6 @@ namespace Lab_3_1
         public double PerimeterCalculator()
         {
             return (side1 + side2) * 2;
-        }
-        
+        }        
     }
 }

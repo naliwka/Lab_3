@@ -10,6 +10,8 @@ namespace Lab_3_4
     {
         static void Main(string[] args)
         {
+            Invoice invoice = new Invoice(20000, "Mary", "Acer");
+            invoice.CalculatePaymentAmount();
         }
     }
 }
